@@ -1,5 +1,2 @@
-# The largest heading
-## The second largest heading
-###### The smallest heading
-
+# Image analysis code for starfish surface contraction waves
 All code was tested using MATLAB 2020a.
