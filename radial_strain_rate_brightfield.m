@@ -141,5 +141,5 @@ save('analysis.mat');
 
 %% Smooth outer contour and calculate characteristic radial strain rate
 for i = 1:size(RR,2);RR(:,i)=smooth(RR(:,i));end
-characteristic_radial_strain_rate=6*mean(min(diff(RR./mean(RR))))
+characteristic_radial_strain_rate=abs(6*mean(min(diff(RR./mean(RR)))))
  
